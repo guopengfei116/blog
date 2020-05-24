@@ -14,7 +14,10 @@
     "react",
     "webpack"
   ],
-  "author": "guopf linqq",
+  "author": "guopf",
+  "contributors": [
+    "linqq"
+  ],
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.5.0"
