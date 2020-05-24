@@ -1,4 +1,13 @@
 module.exports = {
+  cache: false,
+  plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: [".vuepress/components"]
+      }
+    ]
+  ],
   title: 'Home',
   description: '程序猿的技术历程',
   base: "/blog/",

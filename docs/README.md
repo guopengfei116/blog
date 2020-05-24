@@ -3,7 +3,7 @@ home: true
 heroText: 学习笔记
 tagline: 面向生活编程
 actionText: 开始学习 →
-actionLink: /frontend-web
+actionLink: /verse/
 features:
 - title: 深度
   details: 不局限与技术应用，从表象到本质，从原理出发看透技术。
