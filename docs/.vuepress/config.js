@@ -22,35 +22,35 @@ module.exports = {
           { text: 'webpack', link: '/frontend-web/webpack/guide' },
         ]
       },
-      // {
-      //   text: "后端",
-      //   items: [
-      //     {
-      //       text: "Java",
-      //       items: [
-      //         { text: 'vue', link: '/frontend-web/vue/guide' },
-      //       ]
-      //     },
-      //     {
-      //       text: "Python",
-      //       items: [
-      //         { text: 'vue', link: '/frontend-web/vue/guide' },
-      //       ]
-      //     },
-      //   ]
-      // },
-      // {
-      //   text: "数据库",
-      //   items: [
-      //     { text: 'vue', link: '/frontend-web/vue/guide' },
-      //   ]
-      // },
-      // {
-      //   text: "大数据",
-      //   items: [
-      //     { text: 'vue', link: '/frontend-web/vue/guide' },
-      //   ]
-      // },
+      {
+        text: "后端",
+        items: [
+          {
+            text: "Java",
+            items: [
+              { text: 'vue', link: '/frontend-web/vue/guide' },
+            ]
+          },
+          {
+            text: "Python",
+            items: [
+              { text: 'vue', link: '/frontend-web/vue/guide' },
+            ]
+          },
+        ]
+      },
+      {
+        text: "数据库",
+        items: [
+          { text: 'vue', link: '/frontend-web/vue/guide' },
+        ]
+      },
+      {
+        text: "大数据",
+        items: [
+          { text: 'vue', link: '/frontend-web/vue/guide' },
+        ]
+      },
       {
         text: "算法与数据结构",
         items: [
