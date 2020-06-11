@@ -2,8 +2,8 @@ echo "打包中..."
 npm run docs:build
 
 echo "打包完成，正在部署..."
-rm -rf /usr/blog
-cp -rf ./dist /usr/blog
+#rm -rf /usr/blog
+#cp -rf ./dist /usr/blog
 
 echo "重启静态服务..."
 nginx -s reload
