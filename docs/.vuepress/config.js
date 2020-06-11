@@ -1,5 +1,12 @@
 module.exports = {
+  dest: "./dist",
+  title: 'Home',
+  description: '程序猿的技术历程',
+  base: "/",
   cache: false,
+  markdown: {
+    lineNumbers: true,
+  },
   plugins: [
     [
       '@vuepress/register-components',
@@ -8,12 +15,15 @@ module.exports = {
       }
     ]
   ],
-  title: 'Home',
-  description: '程序猿的技术历程',
-  base: "/blog/",
   themeConfig: {
     sidebar: 'auto',
     nav: [
+      {
+        text: "开发环境配置",
+        items: [
+          { text: '前端Web', link: '/environment/frontend-web' },
+        ]
+      },
       {
         text: "前端Web",
         items: [
